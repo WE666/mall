@@ -24,4 +24,25 @@ public class BaseController {
     public String login(){
         return "login";
     }
+
+    @RequestMapping("/detail")
+    public String detail(){
+        return "detail";
+    }
+
+    @RequestMapping("/list")
+    public String list(){
+        return "list";
+    }
+
+    @RequestMapping("/cart")
+    public String cart(){
+        return "cart";
+    }
+
+    @RequestMapping("/order")
+    public String order(){
+        return "order";
+    }
+
 }
